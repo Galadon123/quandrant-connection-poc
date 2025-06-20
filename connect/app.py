@@ -89,7 +89,7 @@ class QdrantManager:
                 query_filter=search_filter,
                 with_payload=True
             )
-            
+            # Demo
             search_results = []
             for result in results:
                 search_results.append({
